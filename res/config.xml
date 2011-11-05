@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:configuration xmlns:ns2="http://www.rbg.informatik.tu-darmstadt.de/digitalsignage">
+    <address>localhost</address>
+    <port>61613</port>
+    <topic>/topic/command</topic>
+    <loadCommandList>
+        <displaySpan>10000</displaySpan>
+        <resource>
+            <source>http://static.traderscity.com/board/userpix45/24380-32-Inch-Floor-Standing-Digital-Signage-Display-Advertising-1.jpg</source>
+            <type>image</type>
+        </resource>
+    </loadCommandList>
+    <loadCommandList>
+        <displaySpan>10000</displaySpan>
+        <resource>
+            <source>http://www.spiegel.de</source>
+            <type>web</type>
+        </resource>
+    </loadCommandList>
+    <loadCommandList>
+        <displaySpan>10000</displaySpan>
+        <resource>
+            <source>http://www.photomorrow.de/wp-content/uploads/2008/03/panasonic.jpg</source>
+            <type>image</type>
+        </resource>
+    </loadCommandList>
+    <loadCommandList>
+        <displaySpan>10000</displaySpan>
+        <resource>
+            <source>http://www.wetter.com</source>
+            <type>web</type>
+        </resource>
+    </loadCommandList>
+</ns2:configuration>
